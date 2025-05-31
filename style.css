@@ -1,0 +1,274 @@
+body{
+    background-image:linear-gradient(#202020,#333333,#141414);
+    color:white;
+    font-family:'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table {
+    margin-left:10px;
+}
+
+
+td {
+    background-color:#1a1a1a;
+    padding-left:40px;
+    padding-right:40px;
+    border:5px solid #000000;
+    border-radius:12px;
+    
+}
+
+
+
+td:hover {
+    transition:0.7s ease-out;
+    background-color:#333333;
+}
+
+tr {
+    border:5px solid rgb(23, 23, 23);
+}
+
+
+h1 {
+    margin-right:5%;
+    margin-left:5%;
+    background-color:#1a1a1a;
+    padding:15px;
+    border-radius:25px;
+    
+}
+
+.iop:hover {
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+}
+
+h1 img {
+    vertical-align:middle;
+    padding-right:15px;
+}
+
+nav a {
+    text-decoration:none;
+    margin-right:20px;
+    color:white;
+    border:2px solid grey;
+    border-radius:7px;
+    padding:5px 3px;
+   
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+span{
+    font-size:48px;
+    border-bottom:1px solid white;
+    font-weight:700;
+    margin-bottom:6px;
+    
+}
+p {
+    line-height:150%;
+    font-size: 25px;
+}
+
+
+p img{
+     margin-right:5px;
+        
+}
+
+.knopka {
+display:flex;
+justify-content:space-between;
+
+}
+
+
+.knopka a {
+flex:1;
+margin:10px;
+padding:10px;
+font-size:32px;
+}
+.knopka a:hover {
+ transform: scale(1.2)
+    
+}
+
+.iop {
+ font-size:56px;
+}
+
+.iop:hover {
+    text-shadow:3px 2px 5px #ffbb28;
+    transition:1s ease-out;
+}
+.qwe {
+    font-size:56px;
+}
+
+.qwe:hover{
+    text-shadow:3px 2px 5px #fa3131;
+ transition:1s linear;
+    border:2px solid #3a3a3a;
+}
+
+.zxc {
+    font-size:56px;
+}
+.zxc:hover {
+text-shadow:3px 2px 5px #9b00ff;
+     transition:1s linear;
+    border:2px solid #3a3a3a;
+}
+
+.fgh {
+    font-size:56px;
+}
+
+.fgh:hover {
+text-shadow:3px 2px 5px #3ff0ff;
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+}
+
+
+header {
+    background-color: rgb(26,26,26);
+    padding:20px;
+    border-radius:24px;
+    
+}
+
+
+.godlys:hover {
+    transition:1s linear;
+    border:2px solid #3a3a3a;
+    text-shadow:3px 2px 5px #3ff0ff;
+}
+
+.qwerty {
+    opacity:0.5;
+    position:relative;
+    text-align: center;
+    font-size: 32px;
+}
+
+.qwerty::before {
+    content: '';
+    background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
+    width:90px;
+    height:90px;
+    position:absolute;
+    background-size:cover;
+    left:0%;
+       
+}
+
+.qwerty::after {
+    content: '';
+        background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
+        width:90px;
+        height:90px;
+        position:absolute;
+        background-size:cover;
+        right:0%;
+       
+}
+
+.qwerty:hover {
+opacity:1;
+}
+
+.slides img {
+margin-right:50px;
+}  
+
+
+.hotitem {
+    text-align:center;
+    font-size:35px;
+}
+
+
+.hotitemf {
+border:2px solid #333333;
+border-radius:25px; 
+
+}
+
+.hotitemf:hover {
+border:2px solid #888888;
+}
+
+
+.tut {
+color:white;
+}
+
+.tut:hover {
+color:#555555;
+}
+
+
+.pas  {
+position:relative;
+display:inline-block;
+z-index: 1;
+}
+
+.pas::before {
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:0;
+    z-index: -1;
+    transition:opacity 0.25s ;
+}
+
+.pas:hover::before {
+    opacity:1;
+}
+
+.mnb {
+width:40px;
+height:40px;
+margin-right:15px;
+}
+
+.mnb:hover {
+opacity:0.5;
+}
+
+.touch {
+position:fixed;
+bottom:0px;
+right:0px;
+font-size:19px;
+background-color:#202020;
+color:white;
+border:3px solid #404040;
+border-radius:10px 0 0 0;
+padding-top:7px;
+}
+
+.joj {
+width:100px;
+height:100px;
+}
+
+
+span  {
+font-size:30px;
+}
+
+
